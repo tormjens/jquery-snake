@@ -1,0 +1,19 @@
+{
+	"name": "jquery-snake",
+	"version": "1.0.0",
+	"homepage": "http://github.com/tormjens/jquery-snake",
+	"authors": [
+		"Nick Pierson <nick@nickpierson.me>",
+		"Tor Morten Jensen <tormorten@tormorten.no>"
+	],
+	"description": "A jQuery plugin for the Snake game.",
+	"main": "src/jquery.snake.js",
+	"keywords": [
+		"jquery",
+		"plugin",
+		"snake",
+		"jquery-plugin",
+		"jquery-snake"
+	],
+	"license": "MIT"
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Boilerplate</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="../dist/jquery.snake.min.js"></script>
+	</head>
+	<body>
+		<canvas id="element"></canvas>
+		<script>
+			$(function() {
+				var game = $("#element").snake({
+					propertyName: "a custom value"
+				});
+
+				game.trigger('snake.play');
+			});
+		</script>
+	</body>
+</html>
