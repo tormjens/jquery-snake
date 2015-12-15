@@ -52,6 +52,10 @@
 					me.game.pause();
 				});
 
+				this.$element.on('snake.enable.controls', function() {
+					me.game.enableControls();
+				});
+
 				this.$element.on('snake.continue', function() {
 					me.game.continue();
 				});
