@@ -7,7 +7,7 @@
 		"Tor Morten Jensen <tormorten@tormorten.no>"
 	],
 	"description": "A jQuery plugin for the Snake game.",
-	"main": "src/jquery.snake.js",
+	"main": "dist/jquery.snake.js",
 	"keywords": [
 		"jquery",
 		"plugin",
