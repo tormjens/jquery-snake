@@ -109,4 +109,8 @@
 			});
 		};
 
+		if(typeof module !== 'undefined' && module.exports) {
+			module.exports = Plugin;
+		}
+
 })( jQuery, window, document );

@@ -1,5 +1,5 @@
 /*
- *  jquery-snake - v3.5.0
+ *  jquery-snake - v3.6.0
  *  A jQuery plugin for the Snake game.
  *  http://jqueryboilerplate.com
  *
@@ -492,6 +492,10 @@ function SnakeGame(canvas, options) {
 					me.game.pause();
 				});
 
+				this.$element.on('snake.enable.controls', function() {
+					me.game.enableControls();
+				});
+
 				this.$element.on('snake.continue', function() {
 					me.game.continue();
 				});
@@ -544,5 +548,9 @@ function SnakeGame(canvas, options) {
 				}
 			});
 		};
+
+		if(typeof module !== 'undefined' && module.exports) {
+			module.exports = Plugin;
+		}
 
 })( jQuery, window, document );
