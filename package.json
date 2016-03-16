@@ -1,6 +1,6 @@
 {
   "name": "jquery-snake",
-  "version": "3.6.0",
+  "version": "1.0.1",
   "description": "A jQuery plugin for the Snake game.",
   "keywords": [
     "jquery-snake",

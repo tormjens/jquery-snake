@@ -45,8 +45,8 @@ function Controls(canvas) {
 	};
 
 	this.listen = function() {
-		$(canvas).on('touchstart', checkForTouch);
-		$(canvas).on('click', checkForClick);
+		jQuery(canvas).on('touchstart', checkForTouch);
+		jQuery(canvas).on('click', checkForClick);
 	};
 
 	var touched = false;
@@ -126,7 +126,7 @@ function ResetButton(canvas, game) {
 	};
 
 	this.listen = function() {
-		$(canvas).on('click', checkForClick);
+		jQuery(canvas).on('click', checkForClick);
 	};
 
 	function checkForClick(e) {
@@ -242,7 +242,7 @@ function Snake(canvas, options) {
 	};
 
 	this.listenForKeyPress = function(canvas) {
-		$(document).on('keydown', $(canvas), function(e) {
+		jQuery(document).on('keydown', jQuery(canvas), function(e) {
 			var code = e.keyCode;
 			if (37 <= code && code <= 40) {
 				e.preventDefault();
